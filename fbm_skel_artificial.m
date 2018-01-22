@@ -20,17 +20,17 @@ misc.nssummary=['_results.txt'];
 p_size = 1;  %Pixelsize in data in micrometer/pixel
 tau = 0.5;     %Time between data point in seconds
 
-%Specify prior ranges
-sigmaHmin=10^(0);  %Minimum value for diffusion constant in micrometer^2/s
-sigmaHmax=10^(3);      %Maximum value for diffusion constant in micrometer^2/s
+%Specify prior ranges (note: micrometer since it is the length scale used in the data-file)
+sigmaHmin=10^(0);  %Minimum value for step deviation in micrometer
+sigmaHmax=10^(3);      %Maximum value for step deviation in micrometer
 
-vmax=1000;      %Maximum absolute value of drift in micrometer/s
+vmax=1000;      %Maximum absolute value of the bias per step
 
-noisemin=0;  %Minimum value for noise parameter in micrometers
-noisemax=1000;  %Maximum value for noise parameter in micrometers
+noisemin=0;  %Minimum value for noise deviation parameter in micrometers
+noisemax=1000;  %Maximum value for noise deviation parameter in micrometers
 
-Hmin=0;      %Minimum value for Hurst parameter
-Hmax=1;      %Maximum value for Hurst parameter
+Hmin=0;      %Minimum value for Hurst exponent
+Hmax=1;      %Maximum value for Hurst exponent
 
 %Convert prior ranges to dimensions of pixels and frames for convenience 
 % ranges - a 2x5 array of minimum and maximum values for the 5 parameter:
