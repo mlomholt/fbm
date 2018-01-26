@@ -1,106 +1,106 @@
-Highest evidence for Model 6 (probability 0.989). 
+Highest evidence for Model 6 (probability 0.511). 
 
 Model 1 (probability 0.000):
-Estimated value for log10-evidence: -814.846 +/- 0.059.
+Estimated value for log10-evidence: -814.774 +/- 0.057.
 Percentile at:   0.02     0.16     0.50     0.84     0.98     MaxL@    Mean    +/- dev.
-Step deviation:  24.397   25.218   25.999   27.073   28.068   26.079   26.105  +/- 0.923   
-D_H constant:    6.0e+02  6.4e+02  6.8e+02  7.3e+02  7.9e+02  6.8e+02  6.8e+02 +/- 48.445  
+Step deviation:  24.265   25.130   26.108   27.108   28.205   26.079   26.122  +/- 0.988   
+D_H constant:    5.9e+02  6.3e+02  6.8e+02  7.3e+02  8.0e+02  6.8e+02  6.8e+02 +/- 51.811  
 log10-Maximal likelihood: -813.008
 Information content model check:
  Scaling n: 1       2       4       8       16      32     
- p-value:   0.58    0       0       0.13    0.89    0.98   
+ p-value:   0.45    0       0       0.05    0.83    0.99   
 
 Model 2 (probability 0.000):
-Estimated value for log10-evidence: -814.414 +/- 0.117.
+Estimated value for log10-evidence: -814.621 +/- 0.085.
 Percentile at:   0.02     0.16     0.50     0.84     0.98     MaxL@    Mean    +/- dev.
-Step deviation:  23.632   24.440   25.344   26.260   27.301   25.243   25.365  +/- 0.917   
-x-bias/step:    -3.525   -1.503    0.388    2.063    4.202    0.226    0.307   +/- 1.839   
-y-bias/step:     5.442    7.431    9.335    11.202   13.134   9.225    9.349   +/- 1.856   
-D_H constant:    5.6e+02  6.0e+02  6.4e+02  6.9e+02  7.5e+02  6.4e+02  6.4e+02 +/- 46.678  
-x-velocity:     -7.050   -3.005    0.775    4.126    8.403    0.452    0.614   +/- 3.678   
-y-velocity:      10.884   14.862   18.669   22.403   26.268   18.451   18.698  +/- 3.711   
+Step deviation:  23.624   24.481   25.311   26.227   27.272   25.252   25.350  +/- 0.899   
+x-bias/step:    -3.512   -1.579    0.193    1.959    3.908    0.268    0.216   +/- 1.799   
+y-bias/step:     5.540    7.406    9.191    11.067   12.954   9.215    9.230   +/- 1.826   
+D_H constant:    5.6e+02  6.0e+02  6.4e+02  6.9e+02  7.4e+02  6.4e+02  6.4e+02 +/- 45.785  
+x-velocity:     -7.023   -3.158    0.386    3.919    7.816    0.536    0.431   +/- 3.598   
+y-velocity:      11.079   14.812   18.381   22.134   25.908   18.429   18.460  +/- 3.651   
 log10-Maximal likelihood: -807.379
 Information content model check:
  Scaling n: 1       2       4       8       16      32     
- p-value:   0.44    0       0       0       0       0.03   
+ p-value:   0.55    0       0       0       0       0.08   
 
 Model 3 (probability 0.000):
-Estimated value for log10-evidence: -808.968 +/- 0.090.
+Estimated value for log10-evidence: -808.948 +/- 0.074.
 Percentile at:   0.02     0.16     0.50     0.84     0.98     MaxL@    Mean    +/- dev.
-Step deviation:  15.303   16.624   17.766   19.071   20.502   17.636   17.814  +/- 1.248   
-Measurem. err.:  10.882   12.240   13.350   14.504   15.720   13.408   13.344  +/- 1.130   
-D_H constant:    2.3e+02  2.8e+02  3.2e+02  3.6e+02  4.2e+02  3.1e+02  3.2e+02 +/- 44.812  
+Step deviation:  15.440   16.585   17.721   18.934   20.640   17.636   17.773  +/- 1.216   
+Measurem. err.:  11.056   12.273   13.371   14.456   15.589   13.406   13.366  +/- 1.121   
+D_H constant:    2.4e+02  2.8e+02  3.1e+02  3.6e+02  4.3e+02  3.1e+02  3.2e+02 +/- 43.715  
 log10-Maximal likelihood: -804.776
 Information content model check:
  Scaling n: 1       2       4       8       16      32     
- p-value:   0.42    0.54    0.75    0.99    1       1      
+ p-value:   0.52    0.53    0.72    1       1       1      
 
 Model 4 (probability 0.000):
-Estimated value for log10-evidence: -815.457 +/- 0.077.
+Estimated value for log10-evidence: -815.474 +/- 0.062.
 Percentile at:   0.02     0.16     0.50     0.84     0.98     MaxL@    Mean    +/- dev.
-Step deviation:  24.216   25.266   26.098   26.963   28.059   26.024   26.123  +/- 0.901   
-Hurst exponent:  0.424    0.442    0.463    0.483    0.506    0.462    0.463   +/- 0.020   
-D_H constant:    5.5e+02  6.0e+02  6.5e+02  6.9e+02  7.6e+02  6.4e+02  6.5e+02 +/- 48.537  
+Step deviation:  24.286   25.203   26.094   27.116   28.110   26.022   26.147  +/- 0.944   
+Hurst exponent:  0.423    0.444    0.464    0.484    0.508    0.462    0.464   +/- 0.021   
+D_H constant:    5.5e+02  6.0e+02  6.5e+02  7.0e+02  7.6e+02  6.4e+02  6.5e+02 +/- 50.163  
 log10-Maximal likelihood: -812.325
 Information content model check:
  Scaling n: 1       2       4       8       16      32     
- p-value:   0.40    0.01    0.02    0.47    0.98    1      
+ p-value:   0.51    0.04    0.15    0.62    0.99    1      
 
-Model 5 (probability 0.007):
-Estimated value for log10-evidence: -794.989 +/- 0.143.
+Model 5 (probability 0.267):
+Estimated value for log10-evidence: -795.115 +/- 0.091.
 Percentile at:   0.02     0.16     0.50     0.84     0.98     MaxL@    Mean    +/- dev.
-Step deviation:  6.841    7.781    8.892    10.096   11.301   8.552    8.944   +/- 1.124   
-x-bias/step:    -0.867   -0.156    0.434    1.069    1.715    0.434    0.432   +/- 0.627   
-y-bias/step:     7.993    8.662    9.333    9.933    10.610   9.341    9.312   +/- 0.650   
-Measurem. err.:  15.425   16.284   17.241   18.191   19.197   17.328   17.250  +/- 0.929   
-D_H constant:    46.803   60.541   79.059   1.0e+02  1.3e+02  73.138   81.250  +/- 20.458  
-x-velocity:     -1.733   -0.312    0.867    2.138    3.430    0.868    0.863   +/- 1.255   
-y-velocity:      15.986   17.324   18.665   19.867   21.220   18.681   18.624  +/- 1.300   
+Step deviation:  6.977    7.883    8.889    9.885    11.484   8.594    8.941   +/- 1.065   
+x-bias/step:    -0.850   -0.189    0.427    1.049    1.725    0.396    0.422   +/- 0.632   
+y-bias/step:     8.047    8.733    9.368    9.967    10.689   9.351    9.357   +/- 0.635   
+Measurem. err.:  15.384   16.351   17.222   18.132   19.085   17.320   17.230  +/- 0.906   
+D_H constant:    48.682   62.145   79.013   97.718   1.3e+02  73.852   81.082  +/- 19.641  
+x-velocity:     -1.701   -0.378    0.854    2.098    3.450    0.791    0.843   +/- 1.264   
+y-velocity:      16.095   17.465   18.735   19.935   21.378   18.701   18.713  +/- 1.271   
 log10-Maximal likelihood: -784.713
 Information content model check:
  Scaling n: 1       2       4       8       16      32     
- p-value:   0.45    0.48    0.35    0.56    0.88    0.89   
+ p-value:   0.53    0.48    0.40    0.59    0.92    0.90   
 
-Model 6 (probability 0.989):
-Estimated value for log10-evidence: -792.859 +/- 0.141.
+Model 6 (probability 0.511):
+Estimated value for log10-evidence: -794.833 +/- 0.096.
 Percentile at:   0.02     0.16     0.50     0.84     0.98     MaxL@    Mean    +/- dev.
-Step deviation:  23.225   24.160   25.161   26.147   27.374   25.224   25.186  +/- 1.000   
-x-bias/step:    -0.176    0.079    0.324    0.565    0.844    0.325    0.326   +/- 0.247   
-y-bias/step:     8.797    9.067    9.305    9.531    9.785    9.298    9.302   +/- 0.239   
-Hurst exponent:  0.106    0.129    0.150    0.173    0.198    0.141    0.151   +/- 0.023   
-D_H constant:    3.4e+02  3.6e+02  3.9e+02  4.2e+02  4.5e+02  3.9e+02  3.9e+02 +/- 28.011  
-x-velocity:     -0.352    0.159    0.648    1.130    1.687    0.650    0.651   +/- 0.495   
-y-velocity:      17.594   18.133   18.610   19.063   19.571   18.595   18.603  +/- 0.477   
-log10-Maximal likelihood: -782.850
+Step deviation:  22.881   23.770   24.487   25.503   26.508   25.235   24.586  +/- 0.886   
+x-bias/step:    -0.274    0.039    0.340    0.625    0.941    0.358    0.339   +/- 0.295   
+y-bias/step:     8.687    9.003    9.307    9.588    9.905    9.292    9.303   +/- 0.295   
+Hurst exponent:  0.150    0.170    0.182    0.201    0.221    0.144    0.184   +/- 0.016   
+D_H constant:    3.4e+02  3.6e+02  3.9e+02  4.2e+02  4.6e+02  3.9e+02  3.9e+02 +/- 28.336  
+x-velocity:     -0.547    0.078    0.679    1.250    1.882    0.716    0.677   +/- 0.590   
+y-velocity:      17.374   18.005   18.615   19.176   19.810   18.584   18.606  +/- 0.589   
+log10-Maximal likelihood: -782.854
 Information content model check:
  Scaling n: 1       2       4       8       16      32     
- p-value:   0.51    0.49    0.50    0.77    1       1      
+ p-value:   0.56    0.41    0.28    0.62    0.95    0.99   
 
-Model 7 (probability 0.002):
-Estimated value for log10-evidence: -795.558 +/- 0.098.
+Model 7 (probability 0.114):
+Estimated value for log10-evidence: -795.483 +/- 0.068.
 Percentile at:   0.02     0.16     0.50     0.84     0.98     MaxL@    Mean    +/- dev.
-Step deviation:  5.115    5.942    6.916    8.558    14.018   6.742    7.415   +/- 2.275   
-Measurem. err.:  17.173   17.978   18.751   19.562   20.519   18.761   18.777  +/- 0.814   
-Hurst exponent:  0.821    0.879    0.927    0.965    0.988    0.933    0.922   +/- 0.043   
-D_H constant:    45.188   61.187   84.670   1.4e+02  3.9e+02  82.825   1.1e+02 +/- 1.1e+02 
+Step deviation:  5.187    6.139    7.218    8.728    15.244   6.729    7.662   +/- 2.428   
+Measurem. err.:  17.110   17.968   18.744   19.553   20.521   18.772   18.761  +/- 0.821   
+Hurst exponent:  0.810    0.882    0.934    0.966    0.991    0.932    0.926   +/- 0.044   
+D_H constant:    46.233   65.929   93.015   1.4e+02  4.6e+02  82.468   1.2e+02 +/- 1.9e+02 
 log10-Maximal likelihood: -790.588
 Information content model check:
  Scaling n: 1       2       4       8       16      32     
- p-value:   0.52    0.52    0.36    0.56    0.76    0.65   
+ p-value:   0.39    0.47    0.43    0.50    0.80    0.75   
 
-Model 8 (probability 0.002):
-Estimated value for log10-evidence: -795.577 +/- 0.155.
+Model 8 (probability 0.108):
+Estimated value for log10-evidence: -795.506 +/- 0.082.
 Percentile at:   0.02     0.16     0.50     0.84     0.98     MaxL@    Mean    +/- dev.
-Step deviation:  6.197    9.388    13.352   18.898   24.591   25.170   13.966  +/- 4.626   
-x-bias/step:    -0.708   -0.035    0.369    0.748    1.450    0.347    0.371   +/- 0.523   
-y-bias/step:     8.275    8.947    9.331    9.696    10.344   9.302    9.329   +/- 0.521   
-Measurem. err.:  4.995    12.064   15.508   17.330   18.876   1.169    14.654  +/- 3.221   
-Hurst exponent:  0.144    0.217    0.326    0.457    0.683    0.143    0.341   +/- 0.125   
-D_H constant:    45.770   80.952   1.4e+02  2.5e+02  3.7e+02  3.9e+02  1.6e+02 +/- 87.292  
-x-velocity:     -1.416   -0.070    0.738    1.496    2.900    0.694    0.742   +/- 1.046   
-y-velocity:      16.551   17.894   18.661   19.393   20.688   18.604   18.659  +/- 1.042   
-log10-Maximal likelihood: -782.851
+Step deviation:  5.279    6.201    7.383    8.687    9.843    9.170    7.439   +/- 1.201   
+x-bias/step:    -1.241   -0.364    0.413    1.186    2.084    0.332    0.413   +/- 0.814   
+y-bias/step:     7.691    8.548    9.347    10.120   10.980   9.382    9.346   +/- 0.812   
+Measurem. err.:  16.023   16.911   17.766   18.724   19.681   17.414   17.798  +/- 0.906   
+Hurst exponent:  0.497    0.520    0.567    0.621    0.684    0.465    0.573   +/- 0.050   
+D_H constant:    33.627   44.444   60.740   79.438   1.0e+02  80.114   62.039  +/- 27.105  
+x-velocity:     -2.483   -0.727    0.826    2.372    4.168    0.663    0.827   +/- 1.627   
+y-velocity:      15.381   17.096   18.694   20.241   21.960   18.764   18.692  +/- 1.624   
+log10-Maximal likelihood: -784.408
 Information content model check:
  Scaling n: 1       2       4       8       16      32     
- p-value:   0.46    0.47    0.43    0.77    0.97    0.96   
+ p-value:   0.50    0.58    0.41    0.66    0.91    0.87   
 
