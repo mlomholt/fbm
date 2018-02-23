@@ -1,242 +1,106 @@
-Highest evidence for Model 7 (probability 0.972). 
+Highest evidence for Model 7 (probability 0.950). 
 
 Model 1 (probability 0.000):
-Estimated value for log10-evidence: -806.484 +/- 0.059.
+Estimated value for log10-evidence: -806.553 +/- 0.060.
 Percentile at:   0.02     0.16     0.50     0.84     0.98     MaxL@    Mean    +/- dev.
-Step deviation:  23.128   24.054   24.867   25.786   26.781   24.852   24.904  +/- 0.877   
-D_H constant:    5.3e+02  5.8e+02  6.2e+02  6.6e+02  7.2e+02  6.2e+02  6.2e+02 +/- 43.846  
+Step deviation:  23.138   23.992   24.803   25.834   26.754   24.852   24.869  +/- 0.907   
+D_H constant:    5.4e+02  5.8e+02  6.2e+02  6.7e+02  7.2e+02  6.2e+02  6.2e+02 +/- 45.364  
 log10-Maximal likelihood: -804.642
 Information content model check:
  Scaling n: 1       2       4       8       16      32     
- p-value:   0.48    0.80    1       1       1       1      
-Kolmogorov-Smirnov model check, p-value:  0.59   
-Kolmogorov-Smirnov model check (estimated parameters), p-value:  0.80   
-Model check for information with scaling n:
- Scaling n: 1       2       4       8       16      32     
- p-value:   0.48    0.80    1       1       1       1      
-Model check for final position, p-value:  0.32   
-Model check for estimated n-step correlations:
- n:       1       2       4       8       16      32     
- p-value: 0.99    0       0       0       0       0.01   
-Model check with p-values for percentiles (C) for n-step (R) distributions:
- R\C 0.05    0.10    0.20    0.30    0.40    0.50    0.60    0.70    0.80    0.90    0.95   
- 1   0.46    0.75    0.41    0.61    0.88    0.92    0.96    0.72    0.22    0.10    0.03   
- 2   0.05    0.03    0.16    0.20    0.11    0.26    0.73    0.66    0.92    0.98    0.98   
- 4   0.05    0.19    0.45    0.48    0.67    0.09    0.07    0.30    0.88    0.99    0.81   
- 8   0.23    0       0.03    0.29    0.54    0.66    0.37    0.68    0.91    0.86    0.63   
- 16  0.04    0.08    0.29    0.64    0.87    0.61    0.48    0.71    0.95    0.91    0.64   
- 32  0.11    0.08    0.20    0.09    0.08    0.32    0.46    0.80    0.72    0.79    0.88   
+ p-value:   0.58    0.87    0.99    1       1       1      
 
 Model 2 (probability 0.000):
-Estimated value for log10-evidence: -804.324 +/- 0.121.
+Estimated value for log10-evidence: -804.204 +/- 0.119.
 Percentile at:   0.02     0.16     0.50     0.84     0.98     MaxL@    Mean    +/- dev.
-Step deviation:  22.265   23.052   23.827   24.642   25.595   23.809   23.860  +/- 0.818   
-x-bias/step:     6.656    8.276    9.885    11.381   13.445   9.886    9.852   +/- 1.604   
-y-bias/step:    -5.813   -4.052   -2.429   -0.740    1.142   -2.463   -2.416   +/- 1.679   
-D_H constant:    5.0e+02  5.3e+02  5.7e+02  6.1e+02  6.6e+02  5.7e+02  5.7e+02 +/- 39.180  
-x-velocity:      13.313   16.551   19.770   22.762   26.889   19.771   19.704  +/- 3.209   
-y-velocity:     -11.625  -8.105   -4.858   -1.481    2.284   -4.926   -4.831   +/- 3.357   
+Step deviation:  22.187   23.035   23.890   24.699   25.649   23.784   23.875  +/- 0.842   
+x-bias/step:     6.499    8.220    9.890    11.614   13.351   9.896    9.923   +/- 1.688   
+y-bias/step:    -6.154   -4.286   -2.486   -0.573    1.140   -2.458   -2.464   +/- 1.775   
+D_H constant:    4.9e+02  5.3e+02  5.7e+02  6.1e+02  6.6e+02  5.7e+02  5.7e+02 +/- 40.266  
+x-velocity:      12.998   16.441   19.779   23.227   26.703   19.792   19.846  +/- 3.377   
+y-velocity:     -12.308  -8.572   -4.972   -1.146    2.281   -4.916   -4.927   +/- 3.551   
 log10-Maximal likelihood: -797.006
 Information content model check:
  Scaling n: 1       2       4       8       16      32     
- p-value:   0.50    0.61    0.95    0.99    1       1      
-Kolmogorov-Smirnov model check, p-value:  0.68   
-Kolmogorov-Smirnov model check (estimated parameters), p-value:  0.85   
-Model check for information with scaling n:
- Scaling n: 1       2       4       8       16      32     
- p-value:   0.50    0.61    0.95    0.99    1       1      
-Model check for final position, p-value:  0.11   
-Model check for estimated n-step correlations:
- n:       1       2       4       8       16      32     
- p-value: 0.88    0.02    0.06    0.13    0.26    0.14   
-Model check with p-values for percentiles (C) for n-step (R) distributions:
- R\C 0.05    0.10    0.20    0.30    0.40    0.50    0.60    0.70    0.80    0.90    0.95   
- 1   0.39    0.54    0.31    0.51    0.78    0.88    0.98    0.79    0.38    0.17    0.04   
- 2   0.08    0.04    0.25    0.28    0.20    0.20    0.71    0.49    0.92    0.97    0.89   
- 4   0.09    0.25    0.64    0.63    0.71    0.07    0.07    0.20    0.87    0.96    0.62   
- 8   0.34    0.04    0.05    0.39    0.66    0.77    0.43    0.58    0.90    0.69    0.46   
- 16  0.05    0.17    0.55    0.81    0.88    0.63    0.38    0.53    0.91    0.87    0.44   
- 32  0.11    0.12    0.17    0.11    0.10    0.26    0.48    0.81    0.62    0.68    0.88   
+ p-value:   0.45    0.58    0.94    1       1       0.99   
 
 Model 3 (probability 0.000):
-Estimated value for log10-evidence: -809.127 +/- 0.094.
+Estimated value for log10-evidence: -809.136 +/- 0.094.
 Percentile at:   0.02     0.16     0.50     0.84     0.98     MaxL@    Mean    +/- dev.
-Step deviation:  22.947   23.891   24.804   25.709   26.748   24.853   24.808  +/- 0.910   
-Measurem. err.:  0.067    0.449    1.489    3.060    5.106    1.9e-04  1.743   +/- 1.294   
-D_H constant:    5.3e+02  5.7e+02  6.2e+02  6.6e+02  7.2e+02  6.2e+02  6.2e+02 +/- 45.233  
+Step deviation:  22.967   23.881   24.669   25.698   26.626   24.852   24.748  +/- 0.891   
+Measurem. err.:  0.057    0.468    1.580    3.049    4.775    9.2e-04  1.768   +/- 1.266   
+D_H constant:    5.3e+02  5.7e+02  6.1e+02  6.6e+02  7.1e+02  6.2e+02  6.1e+02 +/- 44.245  
 log10-Maximal likelihood: -804.642
 Information content model check:
  Scaling n: 1       2       4       8       16      32     
- p-value:   0.50    0.82    1       1       1       1      
-Kolmogorov-Smirnov model check, p-value:  0.61   
-Kolmogorov-Smirnov model check (estimated parameters), p-value:  0.86   
-Model check for information with scaling n:
- Scaling n: 1       2       4       8       16      32     
- p-value:   0.50    0.82    1       1       1       1      
-Model check for final position, p-value:  0.23   
-Model check for estimated n-step correlations:
- n:       1       2       4       8       16      32     
- p-value: 0.94    0       0       0.01    0.01    0      
-Model check with p-values for percentiles (C) for n-step (R) distributions:
- R\C 0.05    0.10    0.20    0.30    0.40    0.50    0.60    0.70    0.80    0.90    0.95   
- 1   0.40    0.56    0.34    0.49    0.76    0.89    0.98    0.80    0.42    0.12    0.04   
- 2   0.05    0.05    0.12    0.20    0.15    0.21    0.76    0.65    0.98    1       0.98   
- 4   0.01    0.12    0.41    0.43    0.57    0.08    0.10    0.31    0.97    0.99    0.81   
- 8   0.11    0       0.04    0.31    0.62    0.78    0.51    0.75    0.96    0.80    0.68   
- 16  0.01    0.06    0.28    0.68    0.89    0.69    0.49    0.71    0.95    0.98    0.68   
- 32  0.07    0.07    0.13    0.11    0.09    0.29    0.60    0.93    0.77    0.79    0.94   
+ p-value:   0.42    0.87    1       1       1       1      
 
-Model 4 (probability 0.027):
-Estimated value for log10-evidence: -801.092 +/- 0.076.
+Model 4 (probability 0.049):
+Estimated value for log10-evidence: -800.889 +/- 0.073.
 Percentile at:   0.02     0.16     0.50     0.84     0.98     MaxL@    Mean    +/- dev.
-Step deviation:  22.849   23.719   24.668   25.572   26.624   24.477   24.652  +/- 0.920   
-Hurst exponent:  0.577    0.602    0.628    0.653    0.683    0.625    0.628   +/- 0.026   
-D_H constant:    6.0e+02  6.6e+02  7.2e+02  7.9e+02  8.8e+02  7.1e+02  7.3e+02 +/- 67.047  
+Step deviation:  22.746   23.681   24.607   25.513   26.531   24.477   24.614  +/- 0.921   
+Hurst exponent:  0.577    0.601    0.625    0.650    0.683    0.625    0.626   +/- 0.025   
+D_H constant:    6.0e+02  6.6e+02  7.2e+02  7.9e+02  8.8e+02  7.1e+02  7.2e+02 +/- 66.447  
 log10-Maximal likelihood: -797.982
 Information content model check:
  Scaling n: 1       2       4       8       16      32     
- p-value:   0.50    0.12    0.31    0.71    0.94    0.93   
-Kolmogorov-Smirnov model check, p-value:  0.63   
-Kolmogorov-Smirnov model check (estimated parameters), p-value:  0.82   
-Model check for information with scaling n:
- Scaling n: 1       2       4       8       16      32     
- p-value:   0.50    0.12    0.31    0.71    0.94    0.93   
-Model check for final position, p-value:  0.27   
-Model check for estimated n-step correlations:
- n:       1       2       4       8       16      32     
- p-value: 0.90    0.03    0.03    0.03    0.07    0.01   
-Model check with p-values for percentiles (C) for n-step (R) distributions:
- R\C 0.05    0.10    0.20    0.30    0.40    0.50    0.60    0.70    0.80    0.90    0.95   
- 1   0.57    0.74    0.50    0.71    0.88    0.90    0.98    0.71    0.25    0.10    0.01   
- 2   0.39    0.22    0.50    0.55    0.24    0.16    0.63    0.33    0.67    0.92    0.63   
- 4   0.13    0.43    0.75    0.68    0.68    0.10    0.04    0.15    0.87    0.95    0.55   
- 8   0.40    0.02    0.07    0.39    0.60    0.71    0.43    0.62    0.88    0.60    0.34   
- 16  0.07    0.14    0.34    0.77    0.89    0.71    0.33    0.42    0.88    0.90    0.60   
- 32  0.10    0.13    0.25    0.14    0.10    0.28    0.53    0.83    0.74    0.66    0.86   
+ p-value:   0.44    0.11    0.26    0.69    0.95    0.95   
 
 Model 5 (probability 0.000):
-Estimated value for log10-evidence: -806.551 +/- 0.137.
+Estimated value for log10-evidence: -806.667 +/- 0.139.
 Percentile at:   0.02     0.16     0.50     0.84     0.98     MaxL@    Mean    +/- dev.
-Step deviation:  21.791   22.749   23.630   24.616   25.586   23.788   23.665  +/- 0.933   
-x-bias/step:     6.570    8.219    9.790    11.452   13.448   9.912    9.835   +/- 1.668   
-y-bias/step:    -5.769   -4.075   -2.477   -0.800    1.034   -2.486   -2.450   +/- 1.680   
-Measurem. err.:  0.075    0.614    1.896    3.773    5.943    0.028    2.173   +/- 1.530   
-D_H constant:    4.7e+02  5.2e+02  5.6e+02  6.1e+02  6.5e+02  5.7e+02  5.6e+02 +/- 44.206  
-x-velocity:      13.139   16.438   19.579   22.903   26.896   19.825   19.669  +/- 3.336   
-y-velocity:     -11.538  -8.151   -4.953   -1.599    2.069   -4.973   -4.899   +/- 3.360   
+Step deviation:  22.013   22.743   23.700   24.522   25.405   23.796   23.666  +/- 0.873   
+x-bias/step:     6.345    8.256    9.793    11.564   13.325   9.893    9.862   +/- 1.670   
+y-bias/step:    -5.900   -4.081   -2.462   -0.834    0.930   -2.448   -2.473   +/- 1.655   
+Measurem. err.:  0.114    0.578    1.871    3.784    5.841    0.040    2.140   +/- 1.531   
+D_H constant:    4.8e+02  5.2e+02  5.6e+02  6.0e+02  6.5e+02  5.7e+02  5.6e+02 +/- 41.373  
+x-velocity:      12.690   16.512   19.585   23.128   26.650   19.786   19.723  +/- 3.339   
+y-velocity:     -11.800  -8.162   -4.924   -1.668    1.861   -4.897   -4.946   +/- 3.311   
 log10-Maximal likelihood: -797.006
 Information content model check:
  Scaling n: 1       2       4       8       16      32     
- p-value:   0.55    0.65    0.96    1       1       1      
-Kolmogorov-Smirnov model check, p-value:  0.60   
-Kolmogorov-Smirnov model check (estimated parameters), p-value:  0.82   
-Model check for information with scaling n:
- Scaling n: 1       2       4       8       16      32     
- p-value:   0.55    0.65    0.96    1       1       1      
-Model check for final position, p-value:  0.14   
-Model check for estimated n-step correlations:
- n:       1       2       4       8       16      32     
- p-value: 0.91    0       0.05    0.08    0.26    0.16   
-Model check with p-values for percentiles (C) for n-step (R) distributions:
- R\C 0.05    0.10    0.20    0.30    0.40    0.50    0.60    0.70    0.80    0.90    0.95   
- 1   0.38    0.58    0.33    0.55    0.76    0.91    0.96    0.82    0.35    0.16    0.05   
- 2   0.10    0.10    0.20    0.27    0.18    0.29    0.71    0.51    0.80    0.92    0.90   
- 4   0.09    0.30    0.59    0.53    0.59    0.02    0.06    0.16    0.91    0.96    0.63   
- 8   0.25    0.04    0.07    0.41    0.67    0.67    0.40    0.67    0.90    0.63    0.42   
- 16  0.06    0.15    0.42    0.76    0.80    0.60    0.47    0.67    0.92    0.84    0.49   
- 32  0.15    0.19    0.25    0.15    0.09    0.31    0.46    0.83    0.61    0.67    0.87   
+ p-value:   0.47    0.67    0.94    1       1       0.99   
 
 Model 6 (probability 0.000):
-Estimated value for log10-evidence: -803.113 +/- 0.121.
+Estimated value for log10-evidence: -803.629 +/- 0.126.
 Percentile at:   0.02     0.16     0.50     0.84     0.98     MaxL@    Mean    +/- dev.
-Step deviation:  22.315   23.052   23.925   24.865   25.912   23.720   23.966  +/- 0.881   
-x-bias/step:     3.999    7.138    9.647    12.130   15.331   9.641    9.655   +/- 2.632   
-y-bias/step:    -7.798   -5.221   -2.568    0.088    3.422   -2.590   -2.512   +/- 2.726   
-Hurst exponent:  0.525    0.555    0.586    0.615    0.648    0.575    0.586   +/- 0.030   
-D_H constant:    5.4e+02  5.9e+02  6.4e+02  7.1e+02  8.0e+02  6.2e+02  6.5e+02 +/- 61.783  
-x-velocity:      7.999    14.275   19.293   24.259   30.663   19.281   19.310  +/- 5.263   
-y-velocity:     -15.596  -10.441  -5.136    0.177    6.843   -5.179   -5.024   +/- 5.451   
+Step deviation:  22.298   23.149   23.935   24.849   25.839   23.740   23.971  +/- 0.864   
+x-bias/step:     3.746    7.074    9.607    12.234   15.238   9.766    9.589   +/- 2.691   
+y-bias/step:    -8.142   -5.270   -2.653   -0.108    2.849   -2.547   -2.663   +/- 2.670   
+Hurst exponent:  0.531    0.557    0.586    0.616    0.647    0.574    0.587   +/- 0.029   
+D_H constant:    5.4e+02  5.9e+02  6.5e+02  7.1e+02  7.8e+02  6.2e+02  6.5e+02 +/- 59.133  
+x-velocity:      7.492    14.148   19.213   24.468   30.476   19.532   19.177  +/- 5.382   
+y-velocity:     -16.283  -10.541  -5.306   -0.216    5.699   -5.094   -5.326   +/- 5.340   
 log10-Maximal likelihood: -795.459
 Information content model check:
  Scaling n: 1       2       4       8       16      32     
- p-value:   0.56    0.22    0.50    0.80    0.97    0.90   
-Kolmogorov-Smirnov model check, p-value:  0.63   
-Kolmogorov-Smirnov model check (estimated parameters), p-value:  0.80   
-Model check for information with scaling n:
- Scaling n: 1       2       4       8       16      32     
- p-value:   0.56    0.22    0.50    0.80    0.97    0.90   
-Model check for final position, p-value:  0.22   
-Model check for estimated n-step correlations:
- n:       1       2       4       8       16      32     
- p-value: 0.76    0.16    0.15    0.21    0.28    0.24   
-Model check with p-values for percentiles (C) for n-step (R) distributions:
- R\C 0.05    0.10    0.20    0.30    0.40    0.50    0.60    0.70    0.80    0.90    0.95   
- 1   0.42    0.63    0.40    0.61    0.84    0.93    0.99    0.69    0.35    0.22    0.11   
- 2   0.33    0.24    0.50    0.53    0.29    0.22    0.53    0.25    0.66    0.80    0.65   
- 4   0.13    0.46    0.75    0.66    0.75    0.08    0.04    0.13    0.88    0.90    0.53   
- 8   0.42    0.07    0.15    0.51    0.73    0.73    0.33    0.63    0.89    0.57    0.30   
- 16  0.10    0.18    0.52    0.80    0.87    0.66    0.35    0.47    0.86    0.84    0.44   
- 32  0.19    0.22    0.28    0.11    0.08    0.30    0.56    0.80    0.65    0.62    0.79   
+ p-value:   0.46    0.17    0.35    0.71    0.93    0.83   
 
-Model 7 (probability 0.972):
-Estimated value for log10-evidence: -799.541 +/- 0.098.
+Model 7 (probability 0.950):
+Estimated value for log10-evidence: -799.604 +/- 0.098.
 Percentile at:   0.02     0.16     0.50     0.84     0.98     MaxL@    Mean    +/- dev.
-Step deviation:  17.136   18.295   19.662   21.359   23.979   19.254   19.863  +/- 1.720   
-Measurem. err.:  7.786    9.734    11.059   12.098   13.135   11.030   10.924  +/- 1.262   
-Hurst exponent:  0.681    0.741    0.799    0.860    0.916    0.796    0.799   +/- 0.058   
-D_H constant:    4.3e+02  5.0e+02  5.8e+02  6.9e+02  1.0e+03  5.6e+02  6.1e+02 +/- 1.5e+02 
+Step deviation:  16.933   18.380   19.759   21.485   24.198   19.218   19.960  +/- 1.920   
+Measurem. err.:  8.181    9.819    11.057   12.242   13.327   11.058   10.993  +/- 1.251   
+Hurst exponent:  0.688    0.744    0.797    0.858    0.920    0.797    0.799   +/- 0.058   
+D_H constant:    4.4e+02  5.0e+02  5.8e+02  7.1e+02  1.0e+03  5.6e+02  6.1e+02 +/- 1.8e+02 
 log10-Maximal likelihood: -794.500
 Information content model check:
  Scaling n: 1       2       4       8       16      32     
- p-value:   0.48    0.44    0.40    0.50    0.69    0.53   
-Kolmogorov-Smirnov model check, p-value:  0.62   
-Kolmogorov-Smirnov model check (estimated parameters), p-value:  0.83   
-Model check for information with scaling n:
- Scaling n: 1       2       4       8       16      32     
- p-value:   0.48    0.44    0.40    0.50    0.69    0.53   
-Model check for final position, p-value:  0.22   
-Model check for estimated n-step correlations:
- n:       1       2       4       8       16      32     
- p-value: 0.82    0.11    0.25    0.25    0.33    0.19   
-Model check with p-values for percentiles (C) for n-step (R) distributions:
- R\C 0.05    0.10    0.20    0.30    0.40    0.50    0.60    0.70    0.80    0.90    0.95   
- 1   0.53    0.64    0.38    0.51    0.81    0.93    0.99    0.75    0.41    0.17    0.11   
- 2   0.17    0.12    0.28    0.38    0.21    0.23    0.63    0.50    0.79    0.93    0.83   
- 4   0.33    0.61    0.86    0.88    0.89    0.04    0       0.05    0.62    0.84    0.31   
- 8   0.57    0.09    0.17    0.58    0.81    0.80    0.24    0.42    0.72    0.48    0.21   
- 16  0.10    0.26    0.50    0.78    0.90    0.70    0.39    0.47    0.82    0.77    0.43   
- 32  0.19    0.20    0.35    0.14    0.07    0.25    0.50    0.75    0.55    0.57    0.79   
+ p-value:   0.46    0.42    0.40    0.48    0.74    0.57   
 
 Model 8 (probability 0.000):
-Estimated value for log10-evidence: -803.375 +/- 0.132.
+Estimated value for log10-evidence: -803.528 +/- 0.134.
 Percentile at:   0.02     0.16     0.50     0.84     0.98     MaxL@    Mean    +/- dev.
-Step deviation:  17.188   18.451   20.066   22.065   39.985   19.233   21.273  +/- 8.571   
-x-bias/step:    -15.241  -0.077    9.117    17.409   32.140   8.665    8.774   +/- 13.524  
-y-bias/step:    -25.907  -11.315  -2.386    6.321    21.437  -3.031   -2.499   +/- 13.855  
-Measurem. err.:  9.378    10.494   11.621   12.645   13.603   10.048   11.577  +/- 1.049   
-Hurst exponent:  0.705    0.790    0.854    0.877    0.978    0.724    0.842   +/- 0.055   
-D_H constant:    4.5e+02  5.2e+02  6.4e+02  8.1e+02  3.1e+03  5.0e+02  8.9e+02 +/- 3.4e+03 
-x-velocity:     -30.481  -0.153    18.234   34.819   64.281   17.331   17.547  +/- 27.048  
-y-velocity:     -51.813  -22.630  -4.773    12.643   42.873  -6.062   -4.997   +/- 27.709  
-log10-Maximal likelihood: -793.874
+Step deviation:  16.988   18.268   19.849   21.771   38.456   19.144   21.016  +/- 9.981   
+x-bias/step:    -10.688   1.842    9.136    15.502   29.805   8.957    8.845   +/- 14.186  
+y-bias/step:    -25.030  -9.666   -2.768    4.368    20.090  -2.914   -2.711   +/- 13.931  
+Measurem. err.:  7.199    9.465    10.960   12.289   13.418   10.273   10.844  +/- 1.506   
+Hurst exponent:  0.633    0.716    0.792    0.871    0.975    0.735    0.793   +/- 0.079   
+D_H constant:    4.1e+02  4.8e+02  5.7e+02  7.5e+02  2.8e+03  5.1e+02  8.9e+02 +/- 6.5e+03 
+x-velocity:     -21.376   3.684    18.273   31.004   59.609   17.914   17.690  +/- 28.372  
+y-velocity:     -50.060  -19.332  -5.535    8.735    40.180  -5.829   -5.421   +/- 27.863  
+log10-Maximal likelihood: -793.866
 Information content model check:
  Scaling n: 1       2       4       8       16      32     
- p-value:   0.50    0.42    0.41    0.47    0.57    0.49   
-Kolmogorov-Smirnov model check, p-value:  0.66   
-Kolmogorov-Smirnov model check (estimated parameters), p-value:  0.82   
-Model check for information with scaling n:
- Scaling n: 1       2       4       8       16      32     
- p-value:   0.50    0.42    0.41    0.47    0.57    0.49   
-Model check for final position, p-value:  0.23   
-Model check for estimated n-step correlations:
- n:       1       2       4       8       16      32     
- p-value: 0.46    0.41    0.61    0.65    0.70    0.54   
-Model check with p-values for percentiles (C) for n-step (R) distributions:
- R\C 0.05    0.10    0.20    0.30    0.40    0.50    0.60    0.70    0.80    0.90    0.95   
- 1   0.24    0.35    0.26    0.36    0.58    0.83    0.97    0.86    0.67    0.44    0.34   
- 2   0.14    0.12    0.25    0.36    0.23    0.29    0.75    0.47    0.86    0.96    0.79   
- 4   0.26    0.68    0.93    0.81    0.82    0.05    0.01    0.05    0.71    0.84    0.35   
- 8   0.57    0.07    0.14    0.52    0.77    0.73    0.27    0.56    0.80    0.46    0.25   
- 16  0.11    0.24    0.54    0.83    0.89    0.65    0.32    0.51    0.83    0.82    0.35   
- 32  0.20    0.26    0.33    0.14    0.18    0.36    0.57    0.80    0.69    0.70    0.86   
+ p-value:   0.44    0.51    0.44    0.55    0.76    0.54   
 

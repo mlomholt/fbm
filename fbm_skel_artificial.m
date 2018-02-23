@@ -1,8 +1,8 @@
 function fbm_skel_artificial()
 
 %Comment the line below which is not the relevant data
-%misc.data_id = 'superdiffusive_data_and_results/superdiffusive_track';
-misc.data_id = 'subdiffusive_data_and_results/subdiffusive_track';
+misc.data_id = 'superdiffusive_data_and_results/superdiffusive_track';
+%misc.data_id = 'subdiffusive_data_and_results/subdiffusive_track';
 
 data_path = [misc.data_id,'.txt'];
 
@@ -12,7 +12,11 @@ data = transpose(data);
 %Subtract points to obtain steps
 obs = data(:,2:end) - data(:,1:end-1);
 
-logl_true = fbm_logl(obs,[20 0 0 10 0.75],[1 1 1 1])
+if misc.data_id(3)=='p'
+  log10l_true = fbm_logl(obs,[20 0 0 10 0.75],[1 1 1 1])/log(10)
+else
+  log10l_true = fbm_logl(obs,[20 0 10 10 0.25],[1 1 1 1])/log(10)
+end
 
 %Tell ns_processdataset to write a summary file
 misc.nssummary=['_results.txt'];
@@ -42,8 +46,6 @@ ranges=[sigmaHmin sigmaHmax;...
     noisemin noisemax; Hmin Hmax];
 
 %Specify options
-%options.stoprat=10^(-3);
-options.nsteps=100;
 options.nlist= [1 2 4 8 16 32];
 options.trackmax = 100;
 
@@ -53,10 +55,7 @@ MM = [0 0 0 0; 1 1 0 0; 0 0 1 0; 0 0 0 1; 1 1 1 0; 1 1 0 1; 0 0 1 1; 1 1 1 1];
 for i=1:8;
   nparams=sum(MM(i,:))+1;
   models(i).genu=@() util_generate_u(nparams);
-  options.nsteps=50+50*nparams;
-  options.nwalkers=100+100*nparams; % Number of walkers to be generated
   models(i).options=options;
-  models(i).evolver=@(obs,model,logLstar,walker,step_mod)ns_evolve_exp(obs,model,logLstar,walker,step_mod);
   models(i).logl=@(obs,theta) fbm_logl(obs,fbm_params(theta,MM(i,:)),MM(i,:));
   models(i).invprior=@(u) fbm_invprior(u,ranges,MM(i,:));
   models(i).scaling = @(obs,n) fbm_scaling(obs,n);

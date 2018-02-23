@@ -1,4 +1,6 @@
 function [] = fbm_print_table(results,scenario)
+% call f.x. as fbm_print_table(load_super.results,1)
+% where load_super=load('superdiffusive_data_and_results/superdiffusive_track_output.mat')
 
 MM = [0 0 0 0; 1 1 0 0; 0 0 1 0; 0 0 0 1; 1 1 1 0; 1 1 0 1; 0 0 1 1; 1 1 1 1];
 std_vals = {'$0$','$0$','$0$','$1/2$'};

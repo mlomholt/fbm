@@ -59,11 +59,9 @@ ranges=[sigmaHmin sigmaHmax;...
     noisemin noisemax; Hmin Hmax];
 
 %Specify options
-%options.nwalkers=10; % Number of walkers to be generated
-%options.stoprat=10^(-3);
 options.nlist= [1 2 4 8 16 32];
 options.trackmax = 100;
-options.maxsamples=500;
+options.maxsamples=1000;
 
 %Specify the models
 final=@(x) x(end); % extract last element in a vector
@@ -71,11 +69,8 @@ MM = [0 0 0 0; 1 1 0 0; 0 0 1 0; 0 0 0 1; 1 1 1 0; 1 1 0 1; 0 0 1 1; 1 1 1 1];
 for i=1:8;
   nparams=sum(MM(i,:))+1;
   models(i).genu=@() util_generate_u(nparams);
-  options.nwalkers=100+100*nparams; % Number of walkers to be generated
-  options.nsteps=30+30*nparams;
   models(i).options=options;
   models(i).logl=@(obs,theta) fbm_logl(obs,fbm_params(theta,MM(i,:)),MM(i,:));
-  models(i).evolver=@(obs,model,logLstar,walker,step_mod)ns_evolve_exp(obs,model,logLstar,walker,step_mod);
   models(i).invprior=@(u) fbm_invprior(u,ranges,MM(i,:));
   models(i).scaling = @(obs,n) fbm_scaling(obs,n);
   models(i).replicate = @(obs,theta,n) fbm_replicate(obs,fbm_params(theta,MM(i,:)),n);
