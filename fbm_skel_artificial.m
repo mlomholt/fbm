@@ -1,8 +1,9 @@
 function fbm_skel_artificial()
 
 %Comment the line below which is not the relevant data
-misc.data_id = 'superdiffusive_data_and_results/superdiffusive_track';
+%misc.data_id = 'superdiffusive_data_and_results/superdiffusive_track';
 %misc.data_id = 'subdiffusive_data_and_results/subdiffusive_track';
+misc.data_id = 'superdiffusive_data_and_results/superdiffusive_track_1000';
 
 data_path = [misc.data_id,'.txt'];
 
