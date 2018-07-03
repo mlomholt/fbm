@@ -1,4 +1,4 @@
-function [] = fbm_plot_CHO_figs(load_25,load_37,load_random,load_track)
+function [confusionmat] = fbm_plot_CHO_figs(load_25,load_37,load_random,load_track)
 
 %if scenario==-1
 %  misc.data_id = 'superdiffusive_data_and_results/superdiffusive_track';
@@ -45,9 +45,12 @@ ytraj2=data.y25_2(:,Trajectory2);
 B_2d2 = transpose([xtraj2 ytraj2]);
  
 
-countdist=zeros(length(load_random.res_frederik{1}),2);
-truedist=zeros(length(load_random.res_frederik{1}),2);
+Nmodels=length(load_random.res_frederik{1});
+countdist=zeros(Nmodels,2);
+truedist=zeros(Nmodels,2);
+confusionmat=zeros(Nmodels,Nmodels);
 for i=1:length(load_track.modellist)
+  confusionmat(load_track.modellist{i},imaxlist3(i))=confusionmat(load_track.modellist{i},imaxlist3(i))+1;
   if load_track.modellist{i}==imaxlist3(i)
    countdist(imaxlist3(i),1)=countdist(imaxlist3(i),1)+1;
    truedist(load_track.modellist{i},1)=truedist(load_track.modellist{i},1)+1;
