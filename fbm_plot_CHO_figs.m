@@ -1,4 +1,4 @@
-function [confusionmat] = fbm_plot_CHO_figs(load_25,load_37,load_random,load_track)
+function [confusionmat] = fbm_plot_CHO_figs(load_25,load_37,load_random,load_track,load_equivalent,load_short_equivalent)
 
 %if scenario==-1
 %  misc.data_id = 'superdiffusive_data_and_results/superdiffusive_track';
@@ -24,6 +24,10 @@ function [confusionmat] = fbm_plot_CHO_figs(load_25,load_37,load_random,load_tra
 [countsi2,imaxlist2,Hlist2,Hlisttrue2,Dlist2,Dlisttrue2,pinflist2] = analyze(load_37.res_frederik);
 %load_random=load('random_data_and_results/random_tracks_output.mat');
 [countsi3,imaxlist3,Hlist3,Hlisttrue3,Dlist3,Dlisttrue3,pinflist3] = analyze(load_random.res_frederik);
+%load_random=load('random_data_and_results/equivalent_tracks_output.mat');
+[countsi4,imaxlist4,Hlist4,Hlisttrue4,Dlist4,Dlisttrue4,pinflist4] = analyze(load_equivalent.res_frederik);
+%load_random=load('random_data_and_results/equivalent_short_tracks_output.mat');
+[countsi5,imaxlist5,Hlist5,Hlisttrue5,Dlist5,Dlisttrue5,pinflist5] = analyze(load_short_equivalent.res_frederik);
 
 misc.data_id = 'CHO_data_and_results/CHO_BC_25_2';
 data_path = [misc.data_id,'.mat'];
@@ -106,6 +110,14 @@ subplot(2,2,3)
 histogram(pinflist1{3},'BinLimits',[0 1])
 subplot(2,2,4)
 histogram(pinflist1{5},'BinLimits',[0 1])
+
+figure(5)
+subplot(2,2,1)
+histogram(Hlist4,'BinLimits',[0 1])
+subplot(2,2,2)
+histogram(Hlist5,'BinLimits',[0 1])
+%bar(1:8,countsi3)
+
 
 %---------------------------------
 function [countsi,imaxlist,Hlist,Hlisttrue,Dlist,Dlisttrue,pinflist] = analyze(results)
