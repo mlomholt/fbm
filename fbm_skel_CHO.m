@@ -2,7 +2,9 @@ function fbm_skel_CHO()
 
 %misc.data_id = 'CHO_data_and_results/CHO_BC_25_2'; Ntraj=111;
 %misc.data_id = 'CHO_data_and_results/CHO_BC_37'; Ntraj=170;
-misc.data_id = 'random_data_and_results/random_tracks'; Ntraj=170;
+%misc.data_id = 'random_data_and_results/random_tracks'; Ntraj=170;
+%misc.data_id = 'random_data_and_results/equivalent_tracks'; Ntraj=111;
+misc.data_id = 'random_data_and_results/equivalent_short_tracks'; Ntraj=111;
 
 data_path = [misc.data_id,'.mat'];
 
