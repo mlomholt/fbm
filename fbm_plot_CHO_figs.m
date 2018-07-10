@@ -116,6 +116,10 @@ subplot(2,2,1)
 histogram(Hlist4,'BinLimits',[0 1])
 subplot(2,2,2)
 histogram(Hlist5,'BinLimits',[0 1])
+subplot(2,2,3)
+histogram(Dlist4)
+subplot(2,2,4)
+histogram(Dlist1)
 %bar(1:8,countsi3)
 
 
@@ -129,7 +133,7 @@ paramH=2;
 Hlist=[];
 Hlisttrue=[];
 
-modD=1;
+modD=4;
 paramD=1;
 Dlist=[];
 Dlisttrue=[];
@@ -141,13 +145,13 @@ for i=1:length(results)
   end
   [Zmax imax]=max(logZlist);
   imaxlist=[imaxlist imax];
-  Hlist=[Hlist results{i}(modH).maxLpar(paramH)];
+  Hlist=[Hlist results{i}(modH).param_mean(paramH)];
   if imax==modH %| imax==1
-    Hlisttrue=[Hlisttrue results{i}(modH).maxLpar(paramH)];
+    Hlisttrue=[Hlisttrue results{i}(modH).param_mean(paramH)];
   end
-  Dlist=[Dlist results{i}(modD).maxLpar(paramD)];
+  Dlist=[Dlist results{i}(modD).param_mean(paramD)];
   if imax==modD
-    Dlisttrue=[Dlisttrue results{i}(modD).maxLpar(paramD)];
+    Dlisttrue=[Dlisttrue results{i}(modD).param_mean(paramD)];
   end
 end
 countsi=zeros(1,length(results{1}));
